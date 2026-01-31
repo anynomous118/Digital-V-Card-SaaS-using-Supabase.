@@ -1,0 +1,5 @@
+{
+  "name": "V-Card SaaS Architect",
+  "description": "A comprehensive backend architect tool for Digital V-Card SaaS, providing SQL schemas, RLS policies, and a live V-Card preview powered by Supabase architecture logic.",
+  "requestFramePermissions": []
+}
