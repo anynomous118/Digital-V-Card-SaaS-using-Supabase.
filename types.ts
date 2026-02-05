@@ -26,15 +26,18 @@ export interface Business {
   id: string;
   owner_id: string;
   franchise_id: string;
-  name: string;
+  business_name: string;
   slug: string;
-  bio: string;
+  description: string;
   logo_url?: string;
-  photo_url?: string;
+  owner_photo_url?: string;
   whatsapp_number: string;
   email: string;
   phone: string;
   address: string;
+  is_active: boolean;
+  view_count: number;
+  whatsapp_template?: string;
   created_at: string;
 }
 
